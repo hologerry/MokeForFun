@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0936C11D648641001D7C14 /* MokeLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0936C01D648641001D7C14 /* MokeLoadingView.swift */; };
 		CB2DB9EF1D61CDF200F6D7D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DB9EE1D61CDF200F6D7D2 /* AppDelegate.swift */; };
 		CB2DB9F11D61CDF200F6D7D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DB9F01D61CDF200F6D7D2 /* ViewController.swift */; };
 		CB2DB9F41D61CDF200F6D7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2DB9F21D61CDF200F6D7D2 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		CB2DB9F91D61CDF200F6D7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2DB9F71D61CDF200F6D7D2 /* LaunchScreen.storyboard */; };
 		CB2DBA041D61CDF300F6D7D2 /* MokeForFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DBA031D61CDF300F6D7D2 /* MokeForFunTests.swift */; };
 		CB2DBA0F1D61CDF300F6D7D2 /* MokeForFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DBA0E1D61CDF300F6D7D2 /* MokeForFunUITests.swift */; };
-		CB2DBA1F1D61E47400F6D7D2 /* MokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DBA1E1D61E47400F6D7D2 /* MokeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0936C01D648641001D7C14 /* MokeLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MokeLoadingView.swift; sourceTree = "<group>"; };
 		CB2DB9EB1D61CDF200F6D7D2 /* MokeForFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MokeForFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2DB9EE1D61CDF200F6D7D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB2DB9F01D61CDF200F6D7D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		CB2DBA0A1D61CDF300F6D7D2 /* MokeForFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MokeForFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2DBA0E1D61CDF300F6D7D2 /* MokeForFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokeForFunUITests.swift; sourceTree = "<group>"; };
 		CB2DBA101D61CDF300F6D7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB2DBA1E1D61E47400F6D7D2 /* MokeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MokeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		CB2DB9ED1D61CDF200F6D7D2 /* MokeForFun */ = {
 			isa = PBXGroup;
 			children = (
-				CB2DBA1E1D61E47400F6D7D2 /* MokeView.swift */,
+				CB0936C01D648641001D7C14 /* MokeLoadingView.swift */,
 				CB2DB9EE1D61CDF200F6D7D2 /* AppDelegate.swift */,
 				CB2DB9F01D61CDF200F6D7D2 /* ViewController.swift */,
 				CB2DB9F21D61CDF200F6D7D2 /* Main.storyboard */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2DBA1F1D61E47400F6D7D2 /* MokeView.swift in Sources */,
+				CB0936C11D648641001D7C14 /* MokeLoadingView.swift in Sources */,
 				CB2DB9F11D61CDF200F6D7D2 /* ViewController.swift in Sources */,
 				CB2DB9EF1D61CDF200F6D7D2 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +514,7 @@
 				CB2DBA151D61CDF300F6D7D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB2DBA161D61CDF300F6D7D2 /* Build configuration list for PBXNativeTarget "MokeForFunTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				CB2DBA181D61CDF300F6D7D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB2DBA191D61CDF300F6D7D2 /* Build configuration list for PBXNativeTarget "MokeForFunUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				CB2DBA1B1D61CDF300F6D7D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

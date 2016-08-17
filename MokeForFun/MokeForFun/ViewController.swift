@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     var isPlaying = false
     let rotateString = "Rotate"
     let stopString = "Stop"
-    @IBOutlet var mokeView: MokeView!
+    
+    @IBOutlet var mokeLoadingView: MokeLoadingView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +23,11 @@ class ViewController: UIViewController {
     @IBOutlet var rotateButton: UIButton!
     @IBAction func rotateStop(_ sender: AnyObject) {
         if isPlaying {
-            mokeView.stopAnimate()
+//            mokeLoadingView.stopAnimate()
             isPlaying = false
             rotateButton.setTitle(rotateString, for: .normal)
         } else {
-            mokeView.startAnimate()
+            mokeLoadingView.startAnimateLayers()
             isPlaying = true
             rotateButton.setTitle(stopString, for: .normal)
         }

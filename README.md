@@ -1,7 +1,7 @@
 # MokeForFun
 Moke loading view.
 
-Current version [v0.2](#v0.2)
+Current version [v0.2](#v02)
 
 ![](moke.gif)
 
